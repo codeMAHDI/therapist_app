@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
 void showCustomSnackBar(String? message, {bool isError = true}) {
   if (message != null && message.isNotEmpty) {
     Fluttertoast.showToast(
